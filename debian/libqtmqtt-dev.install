@@ -1,0 +1,3 @@
+usr/include/
+usr/lib/*/libQt6Mqtt*.so
+usr/lib/*/cmake/
