@@ -1,0 +1,19 @@
+Source: qtmqtt
+Section: libs
+Priority: optional
+Maintainer: Jakob Petek <jakob.petek@rps.si>
+Build-Depends: debhelper-compat (= 13), cmake, ninja-build,
+ qt6-base-dev
+Standards-Version: 4.6.0
+
+Package: libqtmqtt1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: QtMqtt runtime libraries
+ Shared libraries for QtMqtt.
+
+Package: libqtmqtt-dev
+Architecture: any
+Depends: libqtmqtt1 (= ${binary:Version}), ${misc:Depends}
+Description: QtMqtt development files
+ Headers and development files for QtMqtt.
