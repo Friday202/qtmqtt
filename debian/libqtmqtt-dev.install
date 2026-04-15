@@ -2,9 +2,6 @@ usr/include/
 usr/lib/*/libQt6Mqtt*.so
 usr/lib/*/cmake/
 
-usr/lib/x86_64-linux-gnu/metatypes/qt6mqtt_release_metatypes.json
-usr/share/qt6/modules/Mqtt.json
-
 usr/lib/*/qt6/sbom/*
 usr/lib/*/qt6/metatypes/*
 usr/lib/*/qt6/modules/*
